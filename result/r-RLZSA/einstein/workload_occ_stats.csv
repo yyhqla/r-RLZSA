@@ -1,0 +1,7 @@
+dataset,workload,pattern_length,num_patterns,occ_avg,occ_min,occ_max,occ_median
+einstein.en.txt,m4,4,500,290651.11,384,3397531,56063.5
+einstein.en.txt,m8,8,500,38157.17,30,2475825,6697.0
+einstein.en.txt,m16,16,500,8258.01,29,369952,4897.0
+einstein.en.txt,m32,32,500,4350.85,6,69416,3524.5
+einstein.en.txt,m64,64,500,3322.29,1,67948,3056.5
+einstein.en.txt,m128,128,500,2318.15,1,7292,1773.5

@@ -1,0 +1,7 @@
+dataset,workload,pattern_length,num_patterns,occ_avg,occ_min,occ_max,occ_median
+english_200MB,m4,4,500,118047.71,4,2641644,17617.5
+english_200MB,m8,8,500,3260.17,1,273351,158.5
+english_200MB,m16,16,500,12.56,1,1872,2.0
+english_200MB,m32,32,500,5.43,1,1476,1.0
+english_200MB,m64,64,500,11.12,1,4756,1.0
+english_200MB,m128,128,500,1.47,1,4,1.0

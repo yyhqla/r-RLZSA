@@ -1,0 +1,6 @@
+dataset,method,index_MiB,build_time_ns,peak_mem_usage_reported,max_rss_kb_time_v
+world_leaders,Move-r,13.42,522664252,265488362,267620
+world_leaders,Move-r-RLZ,26.26,925933889,303532861,309412
+world_leaders,Move-r-RLZEnd,16.43,34789387525,1052920564,1049292
+world_leaders,r-RLZSA@25%,17.50,914674124,308175087,318472
+world_leaders,r-RLZSA@12.5%,16.50,891663059,308074075,316792

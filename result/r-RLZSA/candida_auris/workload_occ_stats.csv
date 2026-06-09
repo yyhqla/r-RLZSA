@@ -1,0 +1,7 @@
+dataset,workload,pattern_length,num_patterns,occ_avg,occ_min,occ_max,occ_median
+candida_auris,m4,4,500,1631683.62,515951,3700398,1539685.5
+candida_auris,m8,8,500,7866.29,1,48864,6797.0
+candida_auris,m16,16,500,42.17,1,6584,13.0
+candida_auris,m32,32,500,17.35,1,483,10.0
+candida_auris,m64,64,500,10.23,1,371,5.0
+candida_auris,m128,128,500,1.56,1,60,1.0

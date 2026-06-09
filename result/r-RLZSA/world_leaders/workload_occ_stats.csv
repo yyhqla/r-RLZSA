@@ -1,0 +1,7 @@
+dataset,workload,pattern_length,num_patterns,occ_avg,occ_min,occ_max,occ_median
+world_leaders,m4,4,500,10946592.37,5,21848294,11110727.5
+world_leaders,m8,8,500,8877140.07,1,20611048,19840.5
+world_leaders,m16,16,500,7163126.30,1,18150219,8884.5
+world_leaders,m32,32,500,3688975.73,1,13326037,763.5
+world_leaders,m64,64,500,526074.85,1,4912598,56.0
+world_leaders,m128,128,500,861.08,1,9412,28.0

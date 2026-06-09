@@ -1,0 +1,6 @@
+dataset,method,index_MiB,build_time_ns,peak_mem_usage_reported,max_rss_kb_time_v
+candida_auris,Move-r,1206.74,14772340631,3396593589,4183604
+candida_auris,Move-r-RLZ,1468.92,75132814349,5819322861,6013160
+candida_auris,Move-r-RLZEnd,1418.30,489847478544,9263632750,9824636
+candida_auris,r-RLZSA@25%,1479.24,75740631719,6220745857,6739424
+candida_auris,r-RLZSA@12.5%,1354.12,75514812694,6220740301,6621364
