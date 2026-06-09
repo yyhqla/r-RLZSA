@@ -1,10 +1,10 @@
-# Paper Experiment Data Export
+# 论文实验数据导出
 
-This folder collects detailed experiment outputs for paper writing.
+本文件夹汇总了用于论文写作的详细实验输出。
 
-Exported datasets and source result directories:
+导出的数据集及其源结果目录如下：
 
-| export dataset | source result directory |
+| 导出数据集 | 源结果目录 |
 |---|---|
 | world_leaders | `measurements/results/r-RLZSA_world_leaders_m4_128_rerun_20260603` |
 | SARS-Cov-2_40 | `measurements/results/r-RLZSA_SARS-Cov-2_40_m4_128_rerun_20260603` |
@@ -14,13 +14,13 @@ Exported datasets and source result directories:
 | einstein | `measurements/results/r-RLZSA_einstein_full_m4_128_rerun_20260603` |
 | boost | `measurements/results/r-RLZSA_boost_full_m4_128_rerun_20260603` |
 
-Per-dataset subfolders contain:
+每个数据集子文件夹包含：
 
-- `final_test_summary.md`: human-readable build/space/workload/performance table.
-- `final_test_performance.csv`: per method and workload final test data.
-- `build_summary_selected.csv`: build time, space, and memory summary.
-- `workload_occ_stats.csv`: occurrence distribution for workloads.
-- `validation_theta_scan.csv`: theta validation scan for adaptive methods.
-- `selected_theta.txt`: selected theta values.
+- `final_test_summary.md`：便于阅读的构建、空间、负载和性能表。
+- `final_test_performance.csv`：按方法和负载划分的最终测试数据。
+- `build_summary_selected.csv`：构建时间、空间和内存摘要。
+- `workload_occ_stats.csv`：负载的 occurrence 分布。
+- `validation_theta_scan.csv`：自适应方法的 theta 验证扫描结果。
+- `selected_theta.txt`：选定的 theta 值。
 
-Combined CSV files at this folder root merge the same metrics across all datasets.
+本文件夹根目录下的合并 CSV 文件汇总了所有数据集上的相同指标。

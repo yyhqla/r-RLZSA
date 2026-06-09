@@ -1,23 +1,20 @@
-# GitHub Release Package
+# GitHub 发布包
 
-This directory is a compact package for publishing the current research code
-and experiment results.
+本目录是一个精简发布包，用于公开当前研究代码和实验结果。
 
-## Layout
+## 目录结构
 
-- `code/`: source files and experiment scripts related to the current
-  algorithms.
-- `result/r-RLZSA/`: experiment data for innovation 1. In this package the
-  method is consistently named `r-RLZSA`.
-- `result/Vr-RLZSA/`: experiment data for innovation 2, including varint-v2
-  cross-dataset results, ablation data, and compact field-frequency data.
+- `code/`：与当前算法相关的源文件和实验脚本。
+- `result/r-RLZSA/`：创新点 1 的实验数据。在本发布包中，该方法统一命名为
+  `r-RLZSA`。
+- `result/Vr-RLZSA/`：创新点 2 的实验数据，包括 varint-v2 跨数据集结果、消融数据，
+  以及精简的字段频率数据。
 
-## Naming
+## 命名说明
 
-- `r-RLZSA`: innovation 1.
-- `Vr-RLZSA`: innovation 2.
-- `Move-r-RLZ`: full RLZSA baseline, also called rlz-only in older notes.
-- `Move-r-RLZEnd`: LZ-End baseline.
+- `r-RLZSA`：创新点 1。
+- `Vr-RLZSA`：创新点 2。
+- `Move-r-RLZ`：完整 RLZSA 基线，在早期笔记中也称为 rlz-only。
+- `Move-r-RLZEnd`：LZ-End 基线。
 
-Large local datasets, generated indexes, raw pattern files, full logs, build
-directories, and private notes are intentionally not included.
+大型本地数据集、生成的索引、原始 pattern 文件、完整日志、构建目录和私人笔记均未包含在本发布包中。
